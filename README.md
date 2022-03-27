@@ -7,3 +7,4 @@ I developed To Do App with Swift and Sqlite for iOS. User can add a new task and
 - [√] Tableview
 - [√] Navigation
 - [√] Auto Layout
+- [√] Launch Screen
