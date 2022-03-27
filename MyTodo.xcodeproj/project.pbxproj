@@ -61,7 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0029931827F0BD5D002DB81A /* ToDoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029931827F0BD5D002DB81A /* MyTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0029931B27F0BD5D002DB81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0029931D27F0BD5D002DB81A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0029931F27F0BD5D002DB81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,9 +69,9 @@
 		0029932427F0BD5E002DB81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0029932727F0BD5F002DB81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0029932927F0BD5F002DB81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0029932E27F0BD5F002DB81A /* ToDoApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029932E27F0BD5F002DB81A /* MyTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0029933227F0BD5F002DB81A /* ToDoApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApplicationTests.swift; sourceTree = "<group>"; };
-		0029933827F0BD5F002DB81A /* ToDoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029933827F0BD5F002DB81A /* MyTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0029933C27F0BD5F002DB81A /* ToDoApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApplicationUITests.swift; sourceTree = "<group>"; };
 		0029933E27F0BD5F002DB81A /* ToDoApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0029934C27F0C581002DB81A /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
@@ -148,9 +148,9 @@
 		0029931927F0BD5D002DB81A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0029931827F0BD5D002DB81A /* ToDoApplication.app */,
-				0029932E27F0BD5F002DB81A /* ToDoApplicationTests.xctest */,
-				0029933827F0BD5F002DB81A /* ToDoApplicationUITests.xctest */,
+				0029931827F0BD5D002DB81A /* MyTodo.app */,
+				0029932E27F0BD5F002DB81A /* MyTodoTests.xctest */,
+				0029933827F0BD5F002DB81A /* MyTodoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,9 +397,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0029931727F0BD5D002DB81A /* ToDoApplication */ = {
+		0029931727F0BD5D002DB81A /* MyTodo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0029934227F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "ToDoApplication" */;
+			buildConfigurationList = 0029934227F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "MyTodo" */;
 			buildPhases = (
 				0029931427F0BD5D002DB81A /* Sources */,
 				0029931527F0BD5D002DB81A /* Frameworks */,
@@ -409,14 +409,14 @@
 			);
 			dependencies = (
 			);
-			name = ToDoApplication;
+			name = MyTodo;
 			productName = ToDoApplication;
-			productReference = 0029931827F0BD5D002DB81A /* ToDoApplication.app */;
+			productReference = 0029931827F0BD5D002DB81A /* MyTodo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0029932D27F0BD5F002DB81A /* ToDoApplicationTests */ = {
+		0029932D27F0BD5F002DB81A /* MyTodoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0029934527F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "ToDoApplicationTests" */;
+			buildConfigurationList = 0029934527F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "MyTodoTests" */;
 			buildPhases = (
 				0029932A27F0BD5F002DB81A /* Sources */,
 				0029932B27F0BD5F002DB81A /* Frameworks */,
@@ -427,14 +427,14 @@
 			dependencies = (
 				0029933027F0BD5F002DB81A /* PBXTargetDependency */,
 			);
-			name = ToDoApplicationTests;
+			name = MyTodoTests;
 			productName = ToDoApplicationTests;
-			productReference = 0029932E27F0BD5F002DB81A /* ToDoApplicationTests.xctest */;
+			productReference = 0029932E27F0BD5F002DB81A /* MyTodoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0029933727F0BD5F002DB81A /* ToDoApplicationUITests */ = {
+		0029933727F0BD5F002DB81A /* MyTodoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0029934827F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "ToDoApplicationUITests" */;
+			buildConfigurationList = 0029934827F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "MyTodoUITests" */;
 			buildPhases = (
 				0029933427F0BD5F002DB81A /* Sources */,
 				0029933527F0BD5F002DB81A /* Frameworks */,
@@ -445,9 +445,9 @@
 			dependencies = (
 				0029933A27F0BD5F002DB81A /* PBXTargetDependency */,
 			);
-			name = ToDoApplicationUITests;
+			name = MyTodoUITests;
 			productName = ToDoApplicationUITests;
-			productReference = 0029933827F0BD5F002DB81A /* ToDoApplicationUITests.xctest */;
+			productReference = 0029933827F0BD5F002DB81A /* MyTodoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -474,7 +474,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0029931327F0BD5D002DB81A /* Build configuration list for PBXProject "ToDoApplication" */;
+			buildConfigurationList = 0029931327F0BD5D002DB81A /* Build configuration list for PBXProject "MyTodo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -487,9 +487,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0029931727F0BD5D002DB81A /* ToDoApplication */,
-				0029932D27F0BD5F002DB81A /* ToDoApplicationTests */,
-				0029933727F0BD5F002DB81A /* ToDoApplicationUITests */,
+				0029931727F0BD5D002DB81A /* MyTodo */,
+				0029932D27F0BD5F002DB81A /* MyTodoTests */,
+				0029933727F0BD5F002DB81A /* MyTodoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -579,12 +579,12 @@
 /* Begin PBXTargetDependency section */
 		0029933027F0BD5F002DB81A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0029931727F0BD5D002DB81A /* ToDoApplication */;
+			target = 0029931727F0BD5D002DB81A /* MyTodo */;
 			targetProxy = 0029932F27F0BD5F002DB81A /* PBXContainerItemProxy */;
 		};
 		0029933A27F0BD5F002DB81A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0029931727F0BD5D002DB81A /* ToDoApplication */;
+			target = 0029931727F0BD5D002DB81A /* MyTodo */;
 			targetProxy = 0029933927F0BD5F002DB81A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -735,6 +735,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyToDo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -765,6 +766,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ToDoApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyToDo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -799,7 +801,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoApplication.app/ToDoApplication";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTodo.app/MyTodo";
 			};
 			name = Debug;
 		};
@@ -818,7 +820,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoApplication.app/ToDoApplication";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTodo.app/MyTodo";
 			};
 			name = Release;
 		};
@@ -859,7 +861,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0029931327F0BD5D002DB81A /* Build configuration list for PBXProject "ToDoApplication" */ = {
+		0029931327F0BD5D002DB81A /* Build configuration list for PBXProject "MyTodo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0029934027F0BD5F002DB81A /* Debug */,
@@ -868,7 +870,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0029934227F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "ToDoApplication" */ = {
+		0029934227F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "MyTodo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0029934327F0BD5F002DB81A /* Debug */,
@@ -877,7 +879,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0029934527F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "ToDoApplicationTests" */ = {
+		0029934527F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "MyTodoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0029934627F0BD5F002DB81A /* Debug */,
@@ -886,7 +888,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0029934827F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "ToDoApplicationUITests" */ = {
+		0029934827F0BD5F002DB81A /* Build configuration list for PBXNativeTarget "MyTodoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0029934927F0BD5F002DB81A /* Debug */,
